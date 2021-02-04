@@ -1,0 +1,46 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-02-04T16:44:23.395Z",
+    "end": "2021-02-04T16:44:23.500Z",
+    "duration": 105
+  },
+  "tests": [
+    {
+      "title": "must return password with length 140",
+      "fullTitle": "\"$ node password 140 1\" command must return password with length 140",
+      "duration": 56,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "must return password with length 10",
+      "fullTitle": "\"$ node password 10 2\" command must return password with length 10",
+      "duration": 42,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "must return password with length 140",
+      "fullTitle": "\"$ node password 140 1\" command must return password with length 140",
+      "duration": 56,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "must return password with length 10",
+      "fullTitle": "\"$ node password 10 2\" command must return password with length 10",
+      "duration": 42,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
